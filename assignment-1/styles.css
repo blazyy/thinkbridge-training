@@ -1,10 +1,8 @@
 body {
     margin: 1% auto;
     font-family: 'Open Sans', sans-serif;
-    background: #FFFFFF;
-    /* fallback for old browsers */
+    background: #FFFFFF; /* fallback for old browsers */
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #recipe {
@@ -75,7 +73,6 @@ img {
 }
 
 @media (min-width: 1200px) {
-
     /* Styles below follow through only for screens which have a width greater than min_width */
     body {
         border: 20px solid #b3bac6;
